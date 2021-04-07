@@ -12,7 +12,13 @@
             </div>
         </nav>
     </body>
+@extends('layouts.app')
 
+@section('title')
+商品一覧
+@endsection
+
+@section('content')
     <div class="jumbotron top-img">
         <p class="text-center text-white top-img-text">{{ config('app.name', 'Laravel')}}</p>
     </div>
