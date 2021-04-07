@@ -14,4 +14,8 @@ use App\Http\Controllers\ProductController;
 |
 */
 
-Route::get('/', [ProductController::class, 'index'])->name('product.index');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/', 'ProductController@index')->name('product.index');
