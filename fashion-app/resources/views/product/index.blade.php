@@ -41,4 +41,5 @@
             @endforeach
         </div>
     </div>
+    <img class="code" src="/images/haircolor3.png">
 </html>
